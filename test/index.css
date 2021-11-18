@@ -57,7 +57,7 @@ a:visited {
 }
 
 .nav {
-  width: 50%;
+  width: 55%;
   height: 60%;
   list-style: none;
   display: flex;
@@ -67,7 +67,7 @@ a:visited {
 .navBtn {
   border: 0;
   height: 50px;
-  width: 150px;
+  width: 125px;
   cursor: pointer;
   background-color: white;
 }
@@ -328,4 +328,62 @@ footer {
 }
 .ribbon {
   color: #4bbb7d;
+}
+.events {
+  width: 60vw;
+  height: 125vh;
+  padding-top: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+.event-card {
+  width: 90%;
+  height: 40vh;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.placeholder-img {
+  width: 40%;
+}
+.card-context {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.community {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.community-search {
+  width: 60vw;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.community-search > input {
+  width: 75%;
+  height: 25%;
+  border: 0;
+  border-radius: 20px;
+  text-align: center;
+}
+.community-search > button {
+  border: 0;
+  border-radius: 20px;
+  width: 20%;
+  background-color: #4bbb7d;
+  height: 25%;
 }
