@@ -8,6 +8,12 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/b697cc21b4.js"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -15,12 +21,14 @@
       integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
       crossorigin="anonymous"
     />
-
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="index.css" />
+    <title>Test for Mental Health</title>
   </head>
   <body class="bg-light">
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="./index.html"
+        ><img src="./img/logo.jpeg" alt="" id="logo"
+      /></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -34,7 +42,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
-          <a class="nav-link mr-3 text-dark font-weight-bold" href="#"
+          <a
+            class="nav-link mr-3 text-dark font-weight-bold"
+            href="./index.html"
             >Mental Health</a
           >
           <a class="nav-link mr-3 text-dark font-weight-bold" href="test.html"
@@ -42,6 +52,9 @@
           >
           <a class="nav-link mr-3 text-dark font-weight-bold" href="chat.html"
             >Chat</a
+          >
+          <a class="nav-link mr-3 text-dark font-weight-bold" href="event.html"
+            >Event</a
           >
           <a
             class="
@@ -79,21 +92,24 @@
 
               <div class="form-group">
                 <label for="q2"
-                  >2. Over the last 12 months, how frequently have you felt alone or lonely?</label
+                  >2. Over the last 12 months, how frequently have you felt
+                  alone or lonely?</label
                 >
                 <textarea class="form-control" id="q2" rows="3"></textarea>
               </div>
 
               <div class="form-group">
                 <label for="q3"
-                  >3. Over the last 12 months, how often did you seriously consider attempting suicide?</label
+                  >3. Over the last 12 months, how often did you seriously
+                  consider attempting suicide?</label
                 >
                 <textarea class="form-control" id="q3" rows="3"></textarea>
               </div>
 
               <div class="form-group">
                 <label for="q4"
-                  >4. Over the last 12 months, did you ever plan how you might attempt suicide?</label
+                  >4. Over the last 12 months, did you ever plan how you might
+                  attempt suicide?</label
                 >
                 <textarea class="form-control" id="q4" rows="3"></textarea>
               </div>
@@ -106,13 +122,26 @@
               </div>
 
               <div class="form-group d-flex justify-content-center">
-                  <button class="btn btn-primary">Submit</button>
+                <button class="btn btn-primary">Submit</button>
               </div>
             </form>
           </div>
         </div>
       </div>
     </div>
+
+    <footer>
+      <div class="footerlink">
+        <a href="#" class="link">About</a>
+        <a href="#" class="link">Terms & Conditions</a>
+        <a href="#" class="link">Blogs</a>
+        <a href="#" class="link">Contact Us</a>
+        <a href="#" class="link">Privacy Policy</a>
+      </div>
+
+      <i class="fas fa-5x fa-ribbon ribbon"></i>
+      <!-- <img src="./img/logo.jpeg" alt="" class="image" /> -->
+    </footer>
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script

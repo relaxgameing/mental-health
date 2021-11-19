@@ -387,3 +387,8 @@ footer {
   background-color: #4bbb7d;
   height: 25%;
 }
+
+.img-height {
+  height: 202px;
+  width: 100%;
+}
